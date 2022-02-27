@@ -1,0 +1,542 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>An Elegie on the miraculously learned, and much lamented Bishop of Armagh. Licensed and entred according to Order.</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1656</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 14 KB of XML-encoded text transcribed from 5 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2013-12">2013-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A84331</idno>
+            <idno type="STC">Wing E423</idno>
+            <idno type="STC">Thomason E875_2</idno>
+            <idno type="STC">ESTC R206565</idno>
+            <idno type="EEBO-CITATION">99865690</idno>
+            <idno type="PROQUEST">99865690</idno>
+            <idno type="VID">168373</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A84331)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 168373)</note>
+            <note>Images scanned from microfilm: (Thomason Tracts ; 132:E875[2])</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>An Elegie on the miraculously learned, and much lamented Bishop of Armagh. Licensed and entred according to Order.</title>
+               </titleStmt>
+               <extent>8 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by Francis Leach,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1656.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>In verse.</note>
+                  <note>Annotation on Thomason copy: "Aprill. 10".</note>
+                  <note>Reproduction of the original in the British Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Ussher, James, 1581-1656 --  Early works to 1800.</term>
+               <term>Elegiac poetry, English --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2012-07</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2012-07</date>
+            <label>Apex CoVantage</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2012-08</date>
+            <label>Pip Willcox</label>Sampled and proofread</change>
+         <change>
+            <date>2012-08</date>
+            <label>Pip Willcox</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2013-02</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:168373:1" rendition="simple:additions"/>
+            <p>AN ELEGIE On the miraculouſly Lear<g ref="char:EOLhyphen"/>ned, and much Lamented BISHOP of ARMAGH.</p>
+            <p>
+               <hi>Licenſed and entred according to Order.</hi>
+            </p>
+            <p>
+               <hi>LONDON</hi> Printed by <hi>Francis Leach,</hi> 1656.</p>
+         </div>
+      </front>
+      <body>
+         <div type="elegy">
+            <pb n="1" facs="tcp:168373:2"/>
+            <head>AN ELEGIE <hi>On the miraculouſly Learned, and much Lamented Biſhop of</hi> Armagh.</head>
+            <lg>
+               <l>
+                  <seg rend="decorInit">W</seg>Hy does my <hi>lowly Pen</hi> aſpire ſo high,</l>
+               <l>To write the <hi>Reverend Vſhers</hi> Elegie?</l>
+               <l>The <hi>Subject's ſacred,</hi> and therefore 'tis fit</l>
+               <l>It ſhould be handled by <hi>Canonick Wit,</hi>
+               </l>
+               <l>Mine's but <hi>Apocryphal.</hi> I am no Poet</l>
+               <l>To blazon this <hi>great Saint.</hi> Some <hi>Learn'd one</hi> do it.</l>
+               <l>(Or has his death, a more <hi>chaſtiſing Doom</hi>
+               </l>
+               <l>Then th' <hi>Viſitation,</hi> ſtruck the <hi>Muſes dumb?</hi>)</l>
+               <l>Fain I would ſacrifice unto his <hi>Fame</hi>
+               </l>
+               <l>
+                  <hi>Numbers</hi> as high and <hi>Noble</hi> as his <hi>Name;</hi>
+               </l>
+               <l>But my <hi>Muſe</hi> wanteth ſuch <hi>Herculean</hi> ſtrength,</l>
+               <l>As to Pourtray the <hi>Holy One</hi> at Length:</l>
+               <l>This <hi>humble Tribute</hi> I pay to his Herſe,</l>
+               <l>To ſpeak <hi>my ſorrow,</hi> Not to boaſt my <hi>Verſe;</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>Is it a Real truth</hi> Armagh <hi>is dead?</hi>
+               </l>
+               <l>Tears! overflow and Deluge my <hi>Dull Head,</hi>
+               </l>
+               <l>That it, thereby <hi>made fertile,</hi> may bring forth</l>
+               <l>Some <hi>Petty Off'ring</hi> to imbalm his <hi>Worth.</hi>
+               </l>
+               <l>
+                  <hi>Arts</hi> droop, the <hi>Church</hi> grows dark the <hi>Goſpel-Light</hi>
+               </l>
+               <l>Seems for to bid the <hi>Nation</hi> now <hi>good Night.</hi>
+               </l>
+               <pb n="2" facs="tcp:168373:2"/>
+               <l>Sad <hi>Symptomes</hi> theſe, which do import, 'tis true,</l>
+               <l>
+                  <hi>Armagh</hi> is gone, and <hi>Englands Glory</hi> too.</l>
+            </lg>
+            <lg>
+               <l>How? ne'r a <hi>Comet?</hi> nor an <hi>Earthquake</hi> neither?</l>
+               <l>To <hi>Vſher</hi> out this <hi>Reverend Holy Father?</hi>
+               </l>
+               <l>No diſmal Voice? or Viſion to foreſhow,</l>
+               <l>And give us warning of this heavy blow?</l>
+               <l>Have we out-ſinn'd the Men of <hi>Ninevey?</hi>
+               </l>
+               <l>More hainous? More Prodigious than they?</l>
+               <l>
+                  <hi>Is our guilt ripe?</hi> and Heav'ns incenſed hand</l>
+               <l>Ready to pour <hi>deſtruction</hi> on the Land?</l>
+               <l>And was this great <hi>Apoſtle</hi> ſent for hence,</l>
+               <l>To make way for approaching <hi>Vengeance?</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Let the <hi>wild Doctors</hi> of the <hi>Tub</hi> perſwade</l>
+               <l>'Tis <hi>Sion,</hi> where they drive their <hi>godly trade.</hi>
+               </l>
+               <l>Mauger their <hi>vifions, dreams,</hi> and <hi>holy Prate,</hi>
+               </l>
+               <l>'Tis a <hi>ſad Truth,</hi> and I'll make bold to ſay't,</l>
+               <l>This was the <hi>Moſes</hi> who ſtood in the Gap,</l>
+               <l>Whoſe death portends ſome <hi>dreadful after-clap</hi>
+               </l>
+               <l>For thoſe <hi>Abominations</hi> which of late</l>
+               <l>Have <hi>Gangrene</hi>-like o'rſpred both <hi>Church</hi> and <hi>State.</hi>
+               </l>
+               <l>
+                  <hi>Armagh</hi> departed? <hi>Babel</hi> then beware,</l>
+               <l>
+                  <hi>Thy doom,</hi> by Conſequence, is drawing near:</l>
+               <l>(So when bleſt <hi>Lot,</hi> by Angels fetcht, went out,</l>
+               <l>
+                  <hi>Brimstone and fire</hi> fell on the <hi>Sodom Rout.</hi>)</l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>This was the man.</hi> So juſt, So ſtout, So ſage,</l>
+               <l>The <hi>Shame</hi> and <hi>Glory</hi> of our ſinful age.</l>
+               <l>How ſaid I, <hi>Man?</hi> that <hi>Epithete's</hi> too mean,</l>
+               <l>
+                  <hi>Armagh</hi> was more. <hi>The miracle of Men.</hi>
+               </l>
+               <l>
+                  <hi>Could he be leſs</hi> who was both learn'd and meek?</l>
+               <l>
+                  <hi>Could he be leſs</hi> who never did ſelf-ſeek?</l>
+               <l>
+                  <hi>Could he be leſs</hi> who knew no Guile? no Gall?</l>
+               <l>Wiſe as a <hi>Serpent,</hi> yet a <hi>Dove</hi> with-all?</l>
+            </lg>
+            <lg>
+               <pb n="3" facs="tcp:168373:3"/>
+               <l>
+                  <hi>Could he be leſs,</hi> who knew no kind of Pride,</l>
+               <l>And yet knew more than all the <hi>Land beſide?</hi>
+               </l>
+               <l>Hid not his <hi>Talent,</hi> but improved it,</l>
+               <l>Not for his own, but <hi>Publique Benefit:</hi>
+               </l>
+               <l>Like the <hi>Induſtrious Bee,</hi> which flies abroad,</l>
+               <l>And toyls to fraight her hive for Common good.</l>
+               <l>His <hi>Intellect</hi> ſcorn'd to be confin'd by <hi>Dover,</hi>
+               </l>
+               <l>
+                  <hi>Bravely expatiating</hi> the whole world over:</l>
+               <l>Like to the <hi>Reverend Noah Janus</hi>-fac'd,</l>
+               <l>Had a Reflex look to the Ages paſt,</l>
+               <l>Scanning the Actions and the <hi>Ar<gap reason="illegible" resp="#APEX" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>s of old,</hi>
+               </l>
+               <l>Slighted their <hi>Droſs,</hi> but treaſur'd up their <hi>Gold.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Beyond the Common <hi>Ne plus ultra</hi> He</l>
+               <l>(<hi>Drake</hi>-like, ambitious o<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> Diſcov<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>rie,)</l>
+               <l>Sailed ſtill on, Bounded by no degr<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>e</l>
+               <l>On this ſide of Univerſalitie,</l>
+               <l>Storing his Country with more noble Prize,</l>
+               <l>Than that which in the W<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ſtern Climate lies:</l>
+               <l>
+                  <hi>America</hi> doth no ſuch Mines contain,</l>
+               <l>As thoſe compriz'd i'th' <hi>Indie of his Brain.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Nor was his <hi>Piety</hi> below his <hi>Par<gap reason="illegible" resp="#APEX" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>s,</hi>
+               </l>
+               <l>
+                  <hi>Right Metropol'tan</hi> both in <hi>Grace</hi> and <hi>Ar<gap reason="illegible" resp="#APEX" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>s,</hi>
+               </l>
+               <l>Vaſt as his knowledge <hi>His Integrity,</hi>
+               </l>
+               <l>
+                  <hi>High</hi> in's own <hi>Fame,</hi> and others <hi>Infamy,</hi>
+               </l>
+               <l>Who could be <hi>Good,</hi> although the Tim<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>s were <hi>Bad,</hi>
+               </l>
+               <l>Hated a <hi>Rotten heart</hi> and <hi>Gyddy head.</hi>
+               </l>
+               <l>What ever Changes were He kept his ground,</l>
+               <l>Seeming the <hi>Axe</hi> on which the <hi>Wheel</hi> turn'd Round.</l>
+               <l>While other <hi>Light ones</hi> Govern'd by the <hi>Tyde,</hi>
+               </l>
+               <l>This way and that way ſhamefully did ſlide:</l>
+               <l>(Like a <hi>firm Rock) Armagh</hi> ſtill fixed ſtood,</l>
+               <l>Mov'd only thus, to ſmile at th' <hi>fickle flood.</hi>
+               </l>
+               <pb n="4" facs="tcp:168373:3"/>
+               <l>Not ſway'd by Fear, or Favour, or by Paſſion,</l>
+               <l>Kept to the Rule, God's Laws, &amp; thoſe o'th' Nation.</l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>A Saint in practice,</hi> not in ſtile, like Thoſe</l>
+               <l>Whoſe Sanctity conſiſts in <hi>painted ſhowes,</hi>
+               </l>
+               <l>Specious pretexts, and <hi>counterfeit Devotion;</hi>
+               </l>
+               <l>(<hi>At best</hi> but pious <hi>frauds</hi> to get <hi>promotion.</hi>)</l>
+               <l>Such <hi>Arts</hi> he ſcorn'd, and well he might; for He</l>
+               <l>Was more <hi>Caelest,</hi> than theſe can ſeem to be<g ref="char:punc">▪</g>
+               </l>
+               <l>No <hi>New Light,</hi> But one of the good <hi>Old stamp;</hi>
+               </l>
+               <l>No blazing <hi>Meteor,</hi> but a burning <hi>Lamp.</hi>
+               </l>
+               <l>
+                  <hi>A Luminary</hi> ſo divinely bright,</l>
+               <l>His beams (<hi>Sun</hi>-like) had <hi>Heat</hi> as well as <hi>Light.</hi>
+               </l>
+               <l>A good <hi>Samaritan</hi> indeed; Who did</l>
+               <l>Pour forth his <hi>pains and oyl,</hi> where he ſaw need.</l>
+               <l>
+                  <hi>Free</hi> from the Errors of the <hi>Church of Rome,</hi>
+               </l>
+               <l>And thoſe more <hi>fatal hereſies at home.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Me-thinks I ſee him in the <hi>Pulpit</hi> ſtill,</l>
+               <l>Laying about him againſt Sin and Hell,</l>
+               <l>With that two-edged ſword the <hi>word of God</hi>
+               </l>
+               <l>Made keener by his <hi>Edifying Nod.</hi>
+               </l>
+               <l>How <hi>Zealous</hi> was he in this holy War?</l>
+               <l>How did he combat with the <hi>Prince</hi> o'th' air?</l>
+               <l>How did he bear up <hi>True Religions crown?</hi>
+               </l>
+               <l>How did he beat the <hi>deeds of darkneſs</hi> down?</l>
+               <l>How did he wound a <hi>hardned Conſcience,</hi>
+               </l>
+               <l>And, even <hi>ſeared,</hi> bring it unto ſence?</l>
+               <l>How did he heal a <hi>wounded Conſcience</hi> too?</l>
+               <l>Weep <hi>Lincolns-Inne,</hi> and witneſs this is true.</l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>You Judges,</hi> that were wont Cloſe Bribes to take,</l>
+               <l>And favour <hi>Cauſes</hi> for the <hi>Perſons</hi> ſake,</l>
+               <l>Are you more <hi>Righteous</hi> and <hi>Religious</hi> now?</l>
+               <l>Weep, and confeſs <hi>Armagh</hi> reformed you.</l>
+               <pb n="5" facs="tcp:168373:4"/>
+               <l>
+                  <hi>You Lawyers,</hi> that diſdain'd to plead for th' <hi>Poor,</hi>
+               </l>
+               <l>Unleſs an <hi>Angel</hi> at your Study door</l>
+               <l>Spoke in's behalf, Are you leſs covetous grown?</l>
+               <l>Do you take <hi>moderate Fees,</hi> and ſometimes <hi>None?</hi>
+               </l>
+               <l>Weep o'r this <hi>Herſe,</hi> (the Caſe is alter'd well)</l>
+               <l>'Twas <hi>bleſſed Vſher</hi> wrought this <hi>miracle.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>You Students,</hi> that of late were full of <hi>Luſt,</hi>
+               </l>
+               <l>And paid at leaſure, where you <hi>went on Truſt,</hi>
+               </l>
+               <l>Are you more <hi>chaſt?</hi> more <hi>juſt?</hi> Nor <hi>Rant?</hi> nor <hi>whore?</hi>
+               </l>
+               <l>Nor wrong your <hi>Creditors,</hi> as you did before?</l>
+               <l>Weep o'r this Herſe, and let your ſad Complaints,</l>
+               <l>Speak you converted by the <hi>best of Saints.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>You Ladies,</hi> that were wont to <hi>paint and ſpot,</hi>
+               </l>
+               <l>And for your pleaſure doe (<hi>you beſt know what</hi>)</l>
+               <l>Have you ſincerely caſt the <hi>Leopard ski<gap reason="illegible" resp="#APEX" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>?</hi>
+               </l>
+               <l>Do you hate <hi>ſpots without,</hi> and <hi>ſpots within?</hi>
+               </l>
+               <l>Weep o're this Herſe, and in <hi>ſad Accents tell,</hi>
+               </l>
+               <l>He's gone to <hi>Heav'n,</hi> who reſcu'd you from <hi>Hell.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>You Tradeſmen,</hi> who were us'd to <hi>lie</hi> and <hi>cheat,</hi>
+               </l>
+               <l>And hugg a thriving proſperous deceit,</l>
+               <l>Are your <hi>weights</hi> and your <hi>Conſciences</hi> now <hi>right?</hi>
+               </l>
+               <l>Will your <hi>wares</hi> and your <hi>works</hi> endure the <hi>light?</hi>
+               </l>
+               <l>Weep o'r this Herſe, that ſo the <hi>world</hi> may ſee,</l>
+               <l>
+                  <hi>Armagb</hi> begat your <hi>Zeal and Honeſty.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>Nor is the Loſs</hi> confined here. (Ev'n <hi>All</hi>
+               </l>
+               <l>Have cauſe to <hi>mourn.</hi>) 'Tis <hi>Epidemical.</hi>
+               </l>
+               <l>So <hi>vaſt</hi> a Ruine, ſuch a <hi>Deſolation</hi>
+               </l>
+               <l>Requires an <hi>Vniverſal Lamentation.</hi>
+               </l>
+               <l>
+                  <hi>Armagh's deceaſe</hi> in a moſt ſolemn way</l>
+               <l>Calls for a publique <hi>Humiliation day.</hi>
+               </l>
+               <pb n="6" facs="tcp:168373:4"/>
+               <l>
+                  <hi>Sa<gap reason="illegible" resp="#APEX" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>kcloth and Aſhes</hi> would become his <hi>Herſe,</hi>
+               </l>
+               <l>Much better than <hi>ſlight tears,</hi> or <hi>ſlighter verſe.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Ah <hi>cruel Fates!</hi> are you turn'd <hi>Lev'llers</hi> too?</l>
+               <l>Strive to outvy the <hi>Goth and Vandal</hi> Crue?</l>
+               <l>No Reverence to Holy Order? Grace?</l>
+               <l>No Mercy to a Man of God? Tis Baſe.</l>
+               <l>Y'ave ruined more Worth in a <hi>Moment</hi> here,</l>
+               <l>Than a <hi>whole Age</hi> can poſsibly repair.</l>
+               <l>Here <hi>Rome</hi> lies ſacked; and it may be ſaid,</l>
+               <l>
+                  <hi>Athens</hi> is here likewiſe demoliſhed.</l>
+               <l>(That wound to Learning, <hi>Pagans</hi> waſting <hi>Greece,</hi>
+               </l>
+               <l>Did but fore-run, and Type-like point at this.)</l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>Death!</hi> thou haſt donethy worſt: we may defie'thee,</l>
+               <l>And all the miſchief that can now come by'thee.</l>
+               <l>Ee'n <hi>pick</hi> and <hi>chooſe,</hi> and ſpare not. We can loſe</l>
+               <l>Hereafter but as a <hi>Crack'd Merchant</hi> does,</l>
+               <l>By petty parcels. Here a dram of <hi>Wit</hi>
+               </l>
+               <l>Thou mayſt take from's, or ſomething like to it.</l>
+               <l>A grain of <hi>Vertue</hi> there, (and well ſo too,</l>
+               <l>Conſid'ring <hi>Men and Manners</hi> what th'are now.)</l>
+               <l>
+                  <hi>No ſuch blow this.</hi> For why, who can deny'it?</l>
+               <l>The <hi>World</hi> is half undone, and <hi>Bankerupt</hi> by'it.</l>
+               <l>What e'r was Eminently <hi>Great</hi> or <hi>Good,</hi>
+               </l>
+               <l>In <hi>Vſher</hi> fell, is to be underſtood.</l>
+            </lg>
+            <lg>
+               <l>Behold a ruin'd <hi>Vniverſity,</hi>
+               </l>
+               <l>Be it remembred <hi>England</hi> once had three,</l>
+               <l>
+                  <hi>Armagh</hi> made up the <hi>famous Trinity,</hi>
+               </l>
+               <l>
+                  <hi>Oxford</hi> and <hi>Cambridge,</hi> in <hi>Epitomie.</hi>
+               </l>
+               <l>Nor is it <hi>Hyperbolical,</hi> to ſay</l>
+               <l>His <hi>Head</hi> contein'd as many <hi>tongues</hi> as they.</l>
+               <pb n="7" facs="tcp:168373:5"/>
+               <l>Nothing exempts from <hi>ſurly Fate</hi> I ſee,</l>
+               <l>
+                  <hi>Armagh</hi> himſelf yiels to <hi>Mortality.</hi>
+               </l>
+               <l>Forgive me (<hi>Noble ſoul</hi>) I ſin to ſay,</l>
+               <l>Thou didſt go hence in <gap reason="illegible" resp="#APEX" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> Mortal way.</l>
+               <l>
+                  <hi>Armagh?</hi> That <gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ound's enough to claim <hi>bold death,</hi>
+               </l>
+               <l>
+                  <hi>Armagh?</hi> That Name implies triumphant breath.</l>
+               <l>I grant thou wert above the Power of <hi>Fate,</hi>
+               </l>
+               <l>
+                  <hi>The righteous dye not,</hi> but they, are tranſlate.</l>
+               <l>What is in others Forc'd, in thee was Free,</l>
+               <l>
+                  <hi>Thou didſt not die,</hi> but Court thy <hi>Deſtiny?</hi>
+               </l>
+               <l>
+                  <hi>Thy task</hi> being <hi>finiſht</hi> here, Thou diſt aſpire,</l>
+               <l>To bear a part in the <hi>Celeſtial Quire.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>Farewell great Saint,</hi> We may Lament thy Loſs,</l>
+               <l>But cannot <hi>ſpeak</hi> thy <hi>worth.</hi> Our ſordid <hi>Droſs</hi>
+               </l>
+               <l>Does but adulterate thy ſacred <hi>Gold,</hi>
+               </l>
+               <l>None but a <hi>Seraphim</hi> can thee unfold.</l>
+               <l>As much above our <hi>praiſe</hi> thou art, as we</l>
+               <l>In <hi>Grace</hi> were Undergraduates to thee.</l>
+               <l>Nor need'ſt thou <hi>Monument</hi> of <hi>Braſs</hi> or Stone,</l>
+               <l>Thy own hands have built a more <hi>Laſting one,</hi>
+               </l>
+               <l>Which ſhall Record thy <hi>Fame</hi> and Vertuous <hi>Parts,</hi>
+               </l>
+               <l>While there are <hi>Learned Heads,</hi> or <hi>Holy hearts.</hi>
+               </l>
+               <l>(But herein only lies thy <hi>happy ſtory,</hi>
+               </l>
+               <l>Thy <hi>Miter</hi>'s turn'd into a Crown of <hi>Glory.</hi>)</l>
+            </lg>
+            <div type="epitaph">
+               <head>The EPITAPH.</head>
+               <lg>
+                  <l>REader, <hi>weep a tear, And</hi> grant</l>
+                  <l>
+                     <hi>Here does lye,</hi> A Myter'd Saint.</l>
+                  <l>
+                     <hi>Here</hi> Armagh himſelf <hi>is laid,</hi>
+                  </l>
+                  <l>
+                     <hi>Enough, there needs no more be ſaid,</hi>
+                  </l>
+                  <l>All <hi>that is</hi> Great, All <hi>that is</hi> Good,</l>
+                  <l>
+                     <hi>Lies here Interr'd,</hi> is underſtood.</l>
+               </lg>
+            </div>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
